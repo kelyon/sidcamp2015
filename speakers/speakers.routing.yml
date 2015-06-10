@@ -1,0 +1,17 @@
+# speakers page
+speakers.speakers:
+  path: '/speakers'
+  defaults:
+    _controller: '\Drupal\speakers\Controller\SpeakersController::view'
+    _title: 'speakers'
+  requirements:
+    _access: 'TRUE'
+
+# configure speakers
+speakers.configure:
+  path: '/admin/config/services/speakers'
+  defaults:
+    _form: 'Drupal\speakers\Form\ConfigForm'
+    _title: 'Configure'
+  requirements:
+    _permission: 'configure speakers'

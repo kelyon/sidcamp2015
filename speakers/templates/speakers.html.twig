@@ -1,0 +1,9 @@
+<div>
+  <div class="bio-wrapper">    
+      {% if data.0.Bio.value != null %}
+          {{data.0.Bio.value}}
+      {% else %}
+          Speaker doesn't exists.
+      {% endif %}
+  </div>
+</div>

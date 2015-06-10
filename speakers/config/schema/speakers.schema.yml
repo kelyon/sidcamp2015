@@ -1,0 +1,8 @@
+# Schema for the configuration files of the Speakers SIDCAMP2015 module.
+speakers.config:
+  type: mapping
+  label: 'Speakers SIDCAMP2015 configuration'
+  mapping:
+    surname:
+      type: string
+      label: 'Insert the surname of the Speaker'

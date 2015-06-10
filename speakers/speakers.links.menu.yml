@@ -1,0 +1,5 @@
+speakers.configure:
+  title: 'Speakers'
+  description: 'Configure elements of speakers service.'
+  route_name: speakers.configure
+  parent: system.admin_config_services

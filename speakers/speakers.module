@@ -1,0 +1,13 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function speakers_theme() {
+  return array(
+    'speakers' => array(
+      'template' => 'speakers',
+      'variables' => array('data' => NULL),
+    ),
+  );
+}

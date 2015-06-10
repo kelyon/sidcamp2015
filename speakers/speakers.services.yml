@@ -1,0 +1,5 @@
+# defines a speakers service with the following dependencies : http_client service from core, and cache.default from core.services.yml
+services:
+  speakersService:
+    class: Drupal\speakers\SpeakersService
+    arguments: ['@http_client', '@cache.default']
